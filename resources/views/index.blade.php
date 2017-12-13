@@ -33,19 +33,19 @@
 <![endif]-->
 
     <!-- Favicon and apple touch icons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+    <link rel="shortcut icon" href="{{asset('frontend/img/favicon.ico')}}" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{{asset('frontend/img/apple-touch-icon.png')}}" />
+    <link rel="apple-touch-icon" sizes="57x57" href="{{asset('frontend/img/apple-touch-icon-57x57.png')}}" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{asset('frontend/img/apple-touch-icon-72x72.png')}}" />
+    <link rel="apple-touch-icon" sizes="76x76" href="{{asset('frontend/img/apple-touch-icon-76x76.png')}}" />
+    <link rel="apple-touch-icon" sizes="114x114" href="{{asset('frontend/img/apple-touch-icon-114x114.png')}}" />
+    <link rel="apple-touch-icon" sizes="120x120" href="{{asset('frontend/img/apple-touch-icon-120x120.png')}}" />
+    <link rel="apple-touch-icon" sizes="144x144" href="{{asset('frontend/img/apple-touch-icon-144x144.png')}}" />
+    <link rel="apple-touch-icon" sizes="152x152" href="{{asset('frontend/img/apple-touch-icon-152x152.png')}}" />
     <!-- owl carousel css -->
 
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="{{asset('frontend/css/owl.carousel.css')}}" rel="stylesheet">
+    <link href="{{asset('frontend/css/owl.theme.css')}}" rel="stylesheet">
 </head>
 
 <body>
@@ -95,8 +95,8 @@ _________________________________________________________ -->
                         <div class="navbar-header">
 
                             <a class="navbar-brand home" href="index.html">
-                                <img src="img/logo.png" alt="Universal logo" class="hidden-xs hidden-sm">
-                                <img src="img/logo-small.png" alt="Universal logo" class="visible-xs visible-sm"><span class="sr-only">Universal - go to homepage</span>
+                                <img src="{{asset('frontend/img/logo.png')}}" alt="Universal logo" class="hidden-xs hidden-sm">
+                                <img src="{{asset('frontend/img/logo-small.png')}}" alt="Universal logo" class="visible-xs visible-sm"><span class="sr-only">Universal - go to homepage</span>
                             </a>
                             <div class="navbar-buttons">
                                 <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -132,7 +132,7 @@ _________________________________________________________ -->
                                             <div class="yamm-content">
                                                 <div class="row">
                                                     <div class="col-sm-6">
-                                                        <img src="img/template-easy-customize.png" class="img-responsive hidden-xs" alt="">
+                                                        <img src="{{asset('frontend/img/template-easy-customize.png')}}" class="img-responsive hidden-xs" alt="">
                                                     </div>
                                                     <div class="col-sm-3">
                                                         <h5>Shortcodes</h5>
@@ -178,7 +178,7 @@ _________________________________________________________ -->
                                             <div class="yamm-content">
                                                 <div class="row">
                                                     <div class="col-sm-6">
-                                                        <img src="img/template-homepage.png" class="img-responsive hidden-xs" alt="">
+                                                        <img src="{{asset('frontend/img/template-homepage.png')}}" class="img-responsive hidden-xs" alt="">
                                                     </div>
                                                     <div class="col-sm-3">
                                                         <h5>Portfolio</h5>
@@ -462,14 +462,14 @@ _________________________________________________________ -->
                             <div class="row">
                                 <div class="col-sm-5 right">
                                     <p>
-                                        <img src="img/logo.png" alt="">
+                                        <img src="{{asset('frontend/img/logo.png')}}" alt="">
                                     </p>
                                     <h1>Multipurpose responsive theme</h1>
                                     <p>Business. Corporate. Agency.
                                         <br />Portfolio. Blog. E-commerce.</p>
                                 </div>
                                 <div class="col-sm-7">
-                                    <img class="img-responsive" src="img/template-homepage.png" alt="">
+                                    <img class="img-responsive" src="{{asset('frontend/img/template-homepage.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -477,7 +477,7 @@ _________________________________________________________ -->
                             <div class="row">
 
                                 <div class="col-sm-7 text-center">
-                                    <img class="img-responsive" src="img/template-mac.png" alt="">
+                                    <img class="img-responsive" src="{{asset('frontend/img/template-mac.png')}}" alt="">
                                 </div>
 
                                 <div class="col-sm-5">
@@ -504,14 +504,14 @@ _________________________________________________________ -->
                                     </ul>
                                 </div>
                                 <div class="col-sm-7">
-                                    <img class="img-responsive" src="img/template-easy-customize.png" alt="">
+                                    <img class="img-responsive" src="{{asset('frontend/img/template-easy-customize.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="row">
                                 <div class="col-sm-7">
-                                    <img class="img-responsive" src="img/template-easy-code.png" alt="">
+                                    <img class="img-responsive" src="{{asset('frontend/img/template-easy-code.png')}}" alt="">
                                 </div>
                                 <div class="col-sm-5">
                                     <h1>Easy to customize</h1>
@@ -623,7 +623,7 @@ _________________________________________________________ -->
                                         <div class="icon"><i class="fa fa-quote-left"></i>
                                         </div>
                                         <div class="name-picture">
-                                            <img class="" alt="" src="img/person-1.jpg">
+                                            <img class="" alt="" src="{{asset('frontend/img/person-1.jpg')}}">
                                             <h5>John McIntyre</h5>
                                             <p>CEO, TransTech</p>
                                         </div>
@@ -640,7 +640,7 @@ _________________________________________________________ -->
                                         <div class="icon"><i class="fa fa-quote-left"></i>
                                         </div>
                                         <div class="name-picture">
-                                            <img class="" alt="" src="img/person-2.jpg">
+                                            <img class="" alt="" src="{{asset('frontend/img/person-2.jpg')}}">
                                             <h5>John McIntyre</h5>
                                             <p>CEO, TransTech</p>
                                         </div>
@@ -659,7 +659,7 @@ _________________________________________________________ -->
                                         <div class="icon"><i class="fa fa-quote-left"></i>
                                         </div>
                                         <div class="name-picture">
-                                            <img class="" alt="" src="img/person-3.png">
+                                            <img class="" alt="" src="{{asset('frontend/img/person-3.png')}}">
                                             <h5>John McIntyre</h5>
                                             <p>CEO, TransTech</p>
                                         </div>
@@ -677,7 +677,7 @@ _________________________________________________________ -->
                                         <div class="icon"><i class="fa fa-quote-left"></i>
                                         </div>
                                         <div class="name-picture">
-                                            <img class="" alt="" src="img/person-4.jpg">
+                                            <img class="" alt="" src="{{asset('frontend/img/person-4.jpg')}}">
                                             <h5>John McIntyre</h5>
                                             <p>CEO, TransTech</p>
                                         </div>
@@ -696,7 +696,7 @@ _________________________________________________________ -->
                                         <div class="icon"><i class="fa fa-quote-left"></i>
                                         </div>
                                         <div class="name-picture">
-                                            <img class="" alt="" src="img/person-4.jpg">
+                                            <img class="" alt="" src="{{asset('frontend/img/person-4.jpg')}}">
                                             <h5>John McIntyre</h5>
                                             <p>CEO, TransTech</p>
                                         </div>
@@ -752,7 +752,7 @@ _________________________________________________________ -->
                             <div class="box-image-text blog">
                                 <div class="top">
                                     <div class="image">
-                                        <img src="img/portfolio-4.jpg" alt="" class="img-responsive">
+                                        <img src="{{asset('frontend/img/portfolio-4.jpg')}}" alt="" class="img-responsive">
                                     </div>
                                     <div class="bg"></div>
                                     <div class="text">
@@ -778,7 +778,7 @@ _________________________________________________________ -->
                             <div class="box-image-text blog">
                                 <div class="top">
                                     <div class="image">
-                                        <img src="img/portfolio-3.jpg" alt="" class="img-responsive">
+                                        <img src="{{asset('frontend/img/portfolio-3.jpg')}}" alt="" class="img-responsive">
                                     </div>
                                     <div class="bg"></div>
                                     <div class="text">
@@ -804,7 +804,7 @@ _________________________________________________________ -->
                             <div class="box-image-text blog">
                                 <div class="top">
                                     <div class="image">
-                                        <img src="img/portfolio-5.jpg" alt="" class="img-responsive">
+                                        <img src="{{asset('frontend/img/portfolio-5.jpg')}}" alt="" class="img-responsive">
                                     </div>
                                     <div class="bg"></div>
                                     <div class="text">
@@ -830,7 +830,7 @@ _________________________________________________________ -->
                             <div class="box-image-text blog">
                                 <div class="top">
                                     <div class="image">
-                                        <img src="img/portfolio-6.jpg" alt="" class="img-responsive">
+                                        <img src="{{asset('frontend/img/portfolio-6.jpg')}}" alt="" class="img-responsive">
                                     </div>
                                     <div class="bg"></div>
                                     <div class="text">
@@ -874,22 +874,22 @@ _________________________________________________________ -->
 
                         <ul class="owl-carousel customers">
                             <li class="item">
-                                <img src="img/customer-1.png" alt="" class="img-responsive">
+                                <img src="{{asset('frontend/img/customer-1.png')}}" alt="" class="img-responsive">
                             </li>
                             <li class="item">
-                                <img src="img/customer-2.png" alt="" class="img-responsive">
+                                <img src="{{asset('frontend/img/customer-2.png')}}" alt="" class="img-responsive">
                             </li>
                             <li class="item">
-                                <img src="img/customer-3.png" alt="" class="img-responsive">
+                                <img src="{{asset('frontend/img/customer-3.png')}}" alt="" class="img-responsive">
                             </li>
                             <li class="item">
-                                <img src="img/customer-4.png" alt="" class="img-responsive">
+                                <img src="{{asset('frontend/img/customer-4.png')}}" alt="" class="img-responsive">
                             </li>
                             <li class="item">
-                                <img src="img/customer-5.png" alt="" class="img-responsive">
+                                <img src="{{asset('frontend/img/customer-5.png')}}" alt="" class="img-responsive">
                             </li>
                             <li class="item">
-                                <img src="img/customer-6.png" alt="" class="img-responsive">
+                                <img src="{{asset('frontend/img/customer-6.png')}}" alt="" class="img-responsive">
                             </li>
                         </ul>
                         <!-- /.owl-carousel -->
@@ -960,7 +960,7 @@ _________________________________________________________ -->
                         <div class="item same-height-row clearfix">
                             <div class="image same-height-always">
                                 <a href="#">
-                                    <img class="img-responsive" src="img/detailsquare.jpg" alt="">
+                                    <img class="img-responsive" src="{{asset('frontend/img/detailsquare.jpg')}}" alt="">
                                 </a>
                             </div>
                             <div class="name same-height-always">
@@ -971,7 +971,7 @@ _________________________________________________________ -->
                         <div class="item same-height-row clearfix">
                             <div class="image same-height-always">
                                 <a href="#">
-                                    <img class="img-responsive" src="img/detailsquare.jpg" alt="">
+                                    <img class="img-responsive" src="{{asset('frontend/img/detailsquare.jpg')}}" alt="">
                                 </a>
                             </div>
                             <div class="name same-height-always">
@@ -982,7 +982,7 @@ _________________________________________________________ -->
                         <div class="item same-height-row clearfix">
                             <div class="image same-height-always">
                                 <a href="#">
-                                    <img class="img-responsive" src="img/detailsquare.jpg" alt="">
+                                    <img class="img-responsive" src="{{asset('frontend/img/detailsquare.jpg')}}" alt="">
                                 </a>
                             </div>
                             <div class="name same-height-always">
@@ -1025,32 +1025,32 @@ _________________________________________________________ -->
                     <div class="photostream">
                         <div>
                             <a href="#">
-                                <img src="img/detailsquare.jpg" class="img-responsive" alt="#">
+                                <img src="{{asset('frontend/img/detailsquare.jpg')}}" class="img-responsive" alt="#">
                             </a>
                         </div>
                         <div>
                             <a href="#">
-                                <img src="img/detailsquare2.jpg" class="img-responsive" alt="#">
+                                <img src="{{asset('frontend/img/detailsquare2.jpg')}}" class="img-responsive" alt="#">
                             </a>
                         </div>
                         <div>
                             <a href="#">
-                                <img src="img/detailsquare3.jpg" class="img-responsive" alt="#">
+                                <img src="{{asset('frontend/img/detailsquare3.jpg')}}" class="img-responsive" alt="#">
                             </a>
                         </div>
                         <div>
                             <a href="#">
-                                <img src="img/detailsquare3.jpg" class="img-responsive" alt="#">
+                                <img src="{{asset('frontend/img/detailsquare3.jpg')}}" class="img-responsive" alt="#">
                             </a>
                         </div>
                         <div>
                             <a href="#">
-                                <img src="img/detailsquare2.jpg" class="img-responsive" alt="#">
+                                <img src="{{asset('frontend/img/detailsquare2.jpg')}}" class="img-responsive" alt="#">
                             </a>
                         </div>
                         <div>
                             <a href="#">
-                                <img src="img/detailsquare.jpg" class="img-responsive" alt="#">
+                                <img src="{{asset('frontend/img/detailsquare.jpg')}}" class="img-responsive" alt="#">
                             </a>
                         </div>
                     </div>
@@ -1095,16 +1095,16 @@ _________________________________________________________ -->
     </script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
-    <script src="js/jquery.cookie.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/jquery.parallax-1.1.3.js"></script>
-    <script src="js/front.js"></script>
+    <script src="{{asset('frontend/js/jquery.cookie.js')}}"></script>
+    <script src="{{asset('frontend/js/waypoints.min.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.counterup.min.js')}}"></script>
+    <script src="{{asset('frontend/js/jquery.parallax-1.1.3.js')}}"></script>
+    <script src="{{asset('frontend/js/front.js')}}"></script>
 
 
 
     <!-- owl carousel -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="{{asset('frontend/js/owl.carousel.min.js')}}"></script>
 
 
 
