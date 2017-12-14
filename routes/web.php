@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/admin', function(){
+    return redirect('/admin/dashboard');
+});
+Route::get('/admin/dashboard', function(){
+    return view('backend.dashboard.index');
+});
