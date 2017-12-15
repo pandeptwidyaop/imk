@@ -1,4 +1,4 @@
-<section class="bar background-pentagon no-mb">
+<section class="bar background-batik no-mb">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

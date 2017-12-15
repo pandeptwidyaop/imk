@@ -18,3 +18,31 @@ body {
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
+
+.background-image-fixed-3 {
+  background: url('../images/slide2.jpg') center top no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.tl-overlay {
+  color:#467fbf;
+  position:absolute;
+  z-index:12;
+  top:50%;
+  left:0;
+  width:100%;
+  text-align:center;
+}
+
+.background-spiral {
+  background: url('../images/pattern.jpg') center center repeat;
+  border-top: solid 1px #999999;
+  border-bottom: solid 1px #999999;
+}
+
+.background-batik {
+  background: url('../images/batik.jpg') center center repeat;
+  border-top: solid 1px #999999;
+  border-bottom: solid 1px #999999;
+}
