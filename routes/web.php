@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('frontend.home.index');
 });
 Route::get('/admin', function(){
     return redirect('/admin/dashboard');
