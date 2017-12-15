@@ -28,7 +28,7 @@
                                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Special Package <i class="caret"></i></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="{{url('/special-package/prewedding')}}">Prewedding</a></li>
-                                    <li><a href="{{url('/special-package/galadinner')}}">Galadinner</a></li>
+                                    <li><a href="{{url('/special-package/galadinner')}}">Dinner</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">

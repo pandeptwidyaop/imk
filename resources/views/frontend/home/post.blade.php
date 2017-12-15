@@ -3,12 +3,12 @@
 
         <div class="col-md-12">
             <div class="heading text-center">
-                <h2>From our blog</h2>
+                <h2>BEST ARTICLE</h2>
             </div>
 
-            <p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies
+            {{-- <p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies
                 mi vitae est. Mauris placerat eleifend leo. <span class="accent">Check our blog!</span>
-            </p>
+            </p> --}}
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="box-image-text blog">

@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="heading text-center">
-                    <h2>Our clients</h2>
+                    <h2>Supported by :</h2>
                 </div>
 
                 <ul class="owl-carousel customers">
