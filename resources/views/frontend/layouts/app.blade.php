@@ -10,10 +10,9 @@
     <meta name="keywords" content="">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="{{asset('frontend/css/animate.css')}}" rel="stylesheet">
     <link href="{{asset('frontend/css/style.blue.css')}}" rel="stylesheet" id="theme-stylesheet">
-    <link href="{{asset('frontend/css/custom.css')}}" rel="stylesheet">
     <link rel="shortcut icon" href="{{asset('frontend/img/favicon.ico')}}" type="image/x-icon" />
     <link rel="apple-touch-icon" href="{{asset('frontend/img/apple-touch-icon.png')}}" />
     <link rel="apple-touch-icon" sizes="57x57" href="{{asset('frontend/img/apple-touch-icon-57x57.png')}}" />
@@ -25,19 +24,17 @@
     <link rel="apple-touch-icon" sizes="152x152" href="{{asset('frontend/img/apple-touch-icon-152x152.png')}}" />
     <link href="{{asset('frontend/css/owl.carousel.css')}}" rel="stylesheet">
     <link href="{{asset('frontend/css/owl.theme.css')}}" rel="stylesheet">
+    <link href="{{asset('frontend/css/custom.css')}}" rel="stylesheet">
 </head>
 <body>
     @include('frontend.layouts.header')
     @yield('content')
     @include('frontend.layouts.footer')
-    
+
     @include('frontend.layouts.copyright')
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')
-    </script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="{{asset('frontend/js/jquery.cookie.js')}}"></script>
     <script src="{{asset('frontend/js/waypoints.min.js')}}"></script>
     <script src="{{asset('frontend/js/jquery.counterup.min.js')}}"></script>

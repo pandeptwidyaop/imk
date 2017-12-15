@@ -18,3 +18,9 @@ body {
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
+
+.background-image-fixed-3 {
+  background: url('../images/slide2.jpg') center top no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

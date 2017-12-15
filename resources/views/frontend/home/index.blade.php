@@ -3,7 +3,7 @@
 @section('content')
     @include('frontend.home.slider')
 
-    <section class="bar background-image-fixed-2 no-mb color-white text-center">
+    <section class="bar background-image-fixed-3 no-mb color-white text-center">
         <div class="dark-mask"></div>
         <div class="container">
             <div class="row">
@@ -16,7 +16,6 @@
                         <a href="index2.html" class="btn btn-template-transparent-black btn-lg">Check other homepage</a>
                     </p>
                 </div>
-
             </div>
         </div>
     </section>
