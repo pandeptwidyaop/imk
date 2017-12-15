@@ -12,7 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('frontend.home.index');
+});
+Route::get('/admin', function(){
+    return redirect('/admin/dashboard');
+});
+Route::get('/admin/dashboard', function(){
+    return view('backend.dashboard.index');
 });
 Route::get('/admin', function(){
     return redirect('/admin/dashboard');

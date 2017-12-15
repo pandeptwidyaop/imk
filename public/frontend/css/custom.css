@@ -1,1 +1,20 @@
+
 /* your styles go here */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.home-carousel {
+  background: url('../images/s3.jpg') center center repeat;
+}
+
+.dark-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #afd6ff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
