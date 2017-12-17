@@ -3,7 +3,7 @@
 @section('content')
     @include('frontend.home.slider')
     @include('frontend.home.post')
-    
+
     <section class="bar background-image-fixed-3 no-mb color-white text-center">
         <div class="dark-mask"></div>
         <div class="container">
