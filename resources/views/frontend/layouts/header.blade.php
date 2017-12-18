@@ -22,7 +22,7 @@
                                 <a href="{{url('')}}" class="dropdown-toggle">Home</b></a>
                             </li>
                             <li class="dropdown">
-                                <a href="{{url('')}}" class="dropdown-toggle">Ticket</b></a>
+                                <a href="{{url('ticket')}}" class="dropdown-toggle">Ticket</b></a>
                             </li>
                             <li class="dropdown">
                                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Special Package <i class="caret"></i></b></a>

@@ -14,6 +14,11 @@
 Route::get('/', function () {
     return view('frontend.home.index');
 });
+
+Route::get('/ticket', function(){
+    return view('frontend.ticket.index');
+});
+
 Route::get('/admin', function(){
     return redirect('/admin/dashboard');
 });
