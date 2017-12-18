@@ -8,22 +8,22 @@
 
                 <ul class="owl-carousel customers">
                     <li class="item">
-                        <img src="{{asset('frontend/img/customer-1.png')}}" alt="" class="img-responsive">
+                        <img src="{{asset('frontend/images/logo-badung.png')}}" alt="" class="img-responsive">
                     </li>
                     <li class="item">
-                        <img src="{{asset('frontend/img/customer-2.png')}}" alt="" class="img-responsive">
+                        <img src="{{asset('frontend/images/logo-buleleng.png')}}" alt="" class="img-responsive">
                     </li>
                     <li class="item">
-                        <img src="{{asset('frontend/img/customer-3.png')}}" alt="" class="img-responsive">
+                        <img src="{{asset('frontend/images/logo-jembrana.gif')}}" alt="" class="img-responsive">
                     </li>
                     <li class="item">
-                        <img src="{{asset('frontend/img/customer-4.png')}}" alt="" class="img-responsive">
+                        <img src="{{asset('frontend/images/logo-denpasar.png')}}" alt="" class="img-responsive">
                     </li>
                     <li class="item">
-                        <img src="{{asset('frontend/img/customer-5.png')}}" alt="" class="img-responsive">
+                        <img src="{{asset('frontend/images/logo-tabanan.png')}}" alt="" class="img-responsive">
                     </li>
                     <li class="item">
-                        <img src="{{asset('frontend/img/customer-6.png')}}" alt="" class="img-responsive">
+                        <img src="{{asset('frontend/images/logo-gianyar.png')}}" alt="" class="img-responsive">
                     </li>
                 </ul>
             </div>

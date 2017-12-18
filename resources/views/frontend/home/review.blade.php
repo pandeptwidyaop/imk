@@ -3,10 +3,10 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="heading text-center">
-                    <h2>Testimonials</h2>
+                    <h2>TAMAN AYUN REVIEWS</h2>
                 </div>
 
-                <p class="lead">We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us.</p>
+                {{-- <p class="lead">We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us.</p> --}}
 
 
                 <ul class="owl-carousel testimonials same-height-row">
