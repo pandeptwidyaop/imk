@@ -1,13 +1,4 @@
-<div id="heading-breadcrumbs">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10">
-                <h1>Prewedding Photo Shoot in Taman Ayun Temple</h1>
-            </div>
-
-        </div>
-    </div>
-</div>
+@include('frontend.package.breadcrumb',['title' => 'Prewedding Photo Shoot in Taman Ayun Temple'])
 <div id="content">
     <div class="container">
         <div class="row">

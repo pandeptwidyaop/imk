@@ -25,14 +25,31 @@ Route::get('/special-package/{id}', function($id){
 
 Route::get('/special-package/{id}/book', function($id){
     $data = [
-        'page' => $id
+        'page' => $id,
+        'menu' => null
     ];
     return view("frontend.package.book", $data);
 });
 
-Route::get('/admin', function(){
-    return redirect('/admin/dashboard');
+Route::get('/special-package/{page}/book/{menu}', function($page,$menu){
+    return view("frontend.package.book",['page' => $page,'menu' => $menu]);
 });
-Route::get('/admin/dashboard', function(){
+
+Route::get('/confirm-payment',function(){
+    return view("frontend.payment.index");
+});
+
+Route::get('/gallery', function(){
+    return view("frontend.gallery.index");
+});
+
+Route::get('/about', function(){
+    return view("frontend.about.index");
+});
+
+Route::get('/loket', function(){
+    return redirect('/loket/dashboard');
+});
+Route::get('/loket/dashboard', function(){
     return view('backend.dashboard.index');
 });

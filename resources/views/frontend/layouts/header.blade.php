@@ -32,13 +32,13 @@
                                 </ul>
                             </li>
                             <li class="dropdown {{$active == 'payment' ? 'active' : ''}}">
-                                <a href="{{url('')}}" class="dropdown-toggle">Confirm Payment</b></a>
+                                <a href="{{url('confirm-payment')}}" class="dropdown-toggle">Confirm Payment</b></a>
                             </li>
                             <li class="dropdown {{$active == 'gallery' ? 'active' : ''}}">
-                                <a href="{{url('')}}" class="dropdown-toggle">Gallery</b></a>
+                                <a href="{{url('gallery')}}" class="dropdown-toggle">Gallery</b></a>
                             </li>
                             <li class="dropdown {{$active == 'about' ? 'active' : ''}}">
-                                <a href="{{url('')}}" class="dropdown-toggle">About</b></a>
+                                <a href="{{url('about')}}" class="dropdown-toggle">About</b></a>
                             </li>
                         </ul>
                     </div>
