@@ -7,10 +7,9 @@
                     @if ($page == 'prewedding')
                         <h1>Prewedding Photo Shoot in Taman Ayun Temple</h1>
                     @else
-                        <h1>Dinner Shoot in Taman Ayun Temple</h1>
+                        <h1>Dinner in Taman Ayun Temple</h1>
                     @endif
                 </div>
-
             </div>
         </div>
     </div>
@@ -111,10 +110,30 @@
     <script src="{{asset('frontend/plugins/date/daterangepicker.js')}}" charset="utf-8"></script>
     <script src="{{asset('frontend/plugins/bootbox.min.js')}}" charset="utf-8"></script>
 @endpush
+@php
+    $price = 0;
+    if ($menu != null) {
+        switch ($menu) {
+            case 'balinese':
+                $price = 250000;
+                break;
+            case 'italian':
+                $price = 300000;
+                break;
+            case 'chinese':
+                $price = 450000;
+                break;
+            case 'japanese':
+                $price = 450000;
+                break;
+        }
+    }
+@endphp
 @push('js')
+
     <script type="text/javascript">
         var option = '';
-        var _personPrice = 50000;
+        var _personPrice = {{$price == 0 ? 50000 : $price}};
         var _dayPrice = 250000;
         var total = 0;
         $(function(){
@@ -157,7 +176,12 @@
         function getPrice(){
             totalDay = getRangeDate() * _dayPrice;
             totalPerson = $('#person').val() * _personPrice;
-            total = totalDay + totalPerson;
+            @if ($page == 'prewedding')
+                total = totalDay + totalPerson;
+            @else
+                total = totalDay * $('#person').val();
+            @endif
+
             $('#total').text("Total : Rp. "+addCommas(total));
         }
 
@@ -173,5 +197,6 @@
             }
             return x1 + x2;
         }
+
     </script>
 @endpush

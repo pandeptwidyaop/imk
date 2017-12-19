@@ -29,6 +29,7 @@
     @stack('css')
 </head>
 <body>
+    @include('frontend.layouts.top')
     @include('frontend.layouts.header',['active' => $active])
     @yield('content')
     {{-- @include('frontend.layouts.footer') --}}
