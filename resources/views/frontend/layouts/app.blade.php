@@ -25,9 +25,11 @@
     <link href="{{asset('frontend/css/owl.carousel.css')}}" rel="stylesheet">
     <link href="{{asset('frontend/css/owl.theme.css')}}" rel="stylesheet">
     <link href="{{asset('frontend/css/custom.css')}}" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    @stack('css')
 </head>
 <body>
-    @include('frontend.layouts.header')
+    @include('frontend.layouts.header',['active' => $active])
     @yield('content')
     {{-- @include('frontend.layouts.footer') --}}
 

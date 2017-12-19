@@ -1,4 +1,4 @@
-@extends('frontend.layouts.app')
+@extends('frontend.layouts.app',['active' => 'home'])
 @section('content')
     @include('frontend.home.slider')
     @include('frontend.home.post')
