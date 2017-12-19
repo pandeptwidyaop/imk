@@ -53,6 +53,11 @@ Route::get('/loket', function(){
 Route::get('/loket/tiket', function(){
     return view('backend.tiket.index');
 });
+
+Route::get("/loket/pembayaran", function(){
+    return view("backend.pembayaran.index");
+});
+
 Route::get('/admin', function(){
     return redirect('/admin/dashboard');
 });
