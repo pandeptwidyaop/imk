@@ -48,11 +48,16 @@ Route::get('/about', function(){
 });
 
 Route::get('/loket', function(){
-    return redirect('/loket/dashboard');
+    return redirect('/loket/tiket');
 });
-Route::get('/loket/dashboard', function(){
-    return view('backend.dashboard.index');
+Route::get('/loket/tiket', function(){
+    return view('backend.tiket.index');
 });
+
+Route::get("/loket/pembayaran", function(){
+    return view("backend.pembayaran.index");
+});
+
 Route::get('/admin', function(){
     return redirect('/admin/dashboard');
 });
