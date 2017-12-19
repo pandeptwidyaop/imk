@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>ADMIN - E-TIKET TAMAN AYUN TEMPLE</title>
+    <title>E-TIKET TAMAN AYUN TEMPLE</title>
     <link href="{{asset('backend/css/bootstrap.css')}}" rel="stylesheet" />
     <link href="{{asset('backend/css/font-awesome.css')}}" rel="stylesheet" />
+    @stack('css')
     <link href="{{asset('backend/css/style.css')}}" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+
 </head>
 <body>
     <div class="navbar navbar-inverse set-radius-zero" >
@@ -21,7 +23,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    <img src="{{asset("backend/img/logo.png")}}" />
+                    <img src="{{asset("frontend/logo.png")}}" />
                 </a>
             </div>
             <div class="right-div">

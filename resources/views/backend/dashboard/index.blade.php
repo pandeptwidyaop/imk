@@ -1,4 +1,4 @@
-@extends('backend.layouts.app',['navigation' => 'admin'])
+@extends('backend.layouts.app',['navigation' => 'admin','menuActive' => 'loket'])
 @section('content')
     <div class="content-wrapper">
         <div class="container">
