@@ -14,7 +14,31 @@
                     <div class="box-image-text blog">
                         <div class="top">
                             <div class="image">
-                                <img src="{{asset('frontend/img/portfolio-4.jpg')}}" alt="" class="img-responsive">
+                                <img src="{{asset('frontend/images/post1.jpg')}}" alt="" class="img-responsive">
+                            </div>
+                            <div class="bg"></div>
+                            <div class="text">
+                                <p class="buttons">
+                                    <a href="{{url('taman-ayun')}}" class="btn btn-template-transparent-primary"><i class="fa fa-link"></i> Read more</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h4><a href="{{url('taman-ayun')}}">Taman Ayun</a></h4>
+                            <p class="author-category">By <a href="#">Triana Putri</a> in <a href="{{url('')}}">Article</a>
+                            </p>
+                            <p class="intro">Bali is very famous for its natural beauty, its friendly inhabitants and indigenous diversity as well as a culture that is still very thick.</p>
+                            <p class="read-more"><a href="{{url('taman-ayun')}}" class="btn btn-template-main">Continue reading</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="box-image-text blog">
+                        <div class="top">
+                            <div class="image">
+                                <img src="{{asset('frontend/images/post2.jpg')}}" alt="" class="img-responsive">
                             </div>
                             <div class="bg"></div>
                             <div class="text">
@@ -24,11 +48,35 @@
                             </div>
                         </div>
                         <div class="content">
-                            <h4><a href="blog-post.html">Fashion now</a></h4>
-                            <p class="author-category">By <a href="#">John Snow</a> in <a href="blog.html">Webdesign</a>
+                            <h4><a href="{{url('history-of-taman-ayun')}}">History of Taman ayun</a></h4>
+                            <p class="author-category">By <a href="#">Triana Putri</a> in <a href="#">History</a>
                             </p>
-                            <p class="intro">Fifth abundantly made Give sixth hath. Cattle creature i be don't them behold green moved fowl Moved life us beast good yielding. Have bring.</p>
-                            <p class="read-more"><a href="blog-post.html" class="btn btn-template-main">Continue reading</a>
+                            <p class="intro">Taman Ayun Temple is located in Mengwi Village, Badung regency, about 18 km to the west from Denpasar. </p>
+                            <p class="read-more"><a href="{{url('history-of-taman-ayun')}}" class="btn btn-template-main">Continue reading</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="box-image-text blog">
+                        <div class="top">
+                            <div class="image">
+                                <img src="{{asset('frontend/images/post3.jpg')}}" alt="" class="img-responsive">
+                            </div>
+                            <div class="bg"></div>
+                            <div class="text">
+                                <p class="buttons">
+                                    <a href="{{url('main-power-of-taman-ayun')}}" class="btn btn-template-transparent-primary"><i class="fa fa-link"></i> Read more</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h4><a href="{{url('main-power-of-taman-ayun')}}">Main Power of Taman Ayun</a></h4>
+                            <p class="author-category">By <a href="#">Triana Putri</a> in <a href="{{url('main-power-of-taman-ayun')}}">History</a>
+                            </p>
+                            <p class="intro">Pura Wisata Taman Ayun has a beautiful temple surrounded by environment with beautiful and supportive nature.</p>
+                            <p class="read-more"><a href="{{url('main-power-of-taman-ayun')}}" class="btn btn-template-main">Continue reading</a>
                             </p>
                         </div>
                     </div>
@@ -39,81 +87,26 @@
                     <div class="box-image-text blog">
                         <div class="top">
                             <div class="image">
-                                <img src="{{asset('frontend/img/portfolio-3.jpg')}}" alt="" class="img-responsive">
+                                <img src="{{asset('frontend/images/post4.jpg')}}" alt="" class="img-responsive">
                             </div>
                             <div class="bg"></div>
                             <div class="text">
                                 <p class="buttons">
-                                    <a href="blog-post.html" class="btn btn-template-transparent-primary"><i class="fa fa-link"></i> Read more</a>
+                                    <a href="{{url('complete-facilities-and-infrastructure-for-the-convenience-of-travelers')}}" class="btn btn-template-transparent-primary"><i class="fa fa-link"></i> Read more</a>
                                 </p>
                             </div>
                         </div>
                         <div class="content">
-                            <h4><a href="blog-post.html">Fashion now</a></h4>
-                            <p class="author-category">By <a href="#">John Snow</a> in <a href="blog.html">Webdesign</a>
+                            <h4><a href="{{url('complete-facilities-and-infrastructure-for-the-convenience-of-travelers')}}">Complete Facilities and Infrastructure For The Convenience Of Travelers</a></h4>
+                            <p class="author-category">By <a href="#">Triana Putri</a> in <a href="#">History</a>
                             </p>
-                            <p class="intro">Fifth abundantly made Give sixth hath. Cattle creature i be don't them behold green moved fowl Moved life us beast good yielding. Have bring.</p>
-                            <p class="read-more"><a href="blog-post.html" class="btn btn-template-main">Continue reading</a>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="box-image-text blog">
-                        <div class="top">
-                            <div class="image">
-                                <img src="{{asset('frontend/img/portfolio-5.jpg')}}" alt="" class="img-responsive">
-                            </div>
-                            <div class="bg"></div>
-                            <div class="text">
-                                <p class="buttons">
-                                    <a href="blog-post.html" class="btn btn-template-transparent-primary"><i class="fa fa-link"></i> Read more</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <h4><a href="blog-post.html">What to do</a></h4>
-                            <p class="author-category">By <a href="#">John Snow</a> in <a href="blog.html">Webdesign</a>
-                            </p>
-                            <p class="intro">Fifth abundantly made Give sixth hath. Cattle creature i be don't them behold green moved fowl Moved life us beast good yielding. Have bring.</p>
-                            <p class="read-more"><a href="blog-post.html" class="btn btn-template-main">Continue reading</a>
+                            <p class="intro">Taman Ayun Temple located in Mengwi Village, Kec. Mengwi, Badung regency, with a distance of about 18 km and approximately 30 minutes drive to the west from the city of Denpasar. Access to the location is quite easy,</p>
+                            <p class="read-more"><a href="{{url('complete-facilities-and-infrastructure-for-the-convenience-of-travelers')}}" class="btn btn-template-main">Continue reading</a>
                             </p>
                         </div>
                     </div>
-
                 </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="box-image-text blog">
-                        <div class="top">
-                            <div class="image">
-                                <img src="{{asset('frontend/img/portfolio-6.jpg')}}" alt="" class="img-responsive">
-                            </div>
-                            <div class="bg"></div>
-                            <div class="text">
-                                <p class="buttons">
-                                    <a href="blog-post.html" class="btn btn-template-transparent-primary"><i class="fa fa-link"></i> Read more</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <h4><a href="blog-post.html">5 ways to look awesome</a></h4>
-                            <p class="author-category">By <a href="#">John Snow</a> in <a href="blog.html">Webdesign</a>
-                            </p>
-                            <p class="intro">Am terminated it excellence invitation projection as. She graceful shy believed distance use nay. Lively is people.</p>
-                            <p class="read-more"><a href="blog-post.html" class="btn btn-template-main">Continue reading</a>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-
             </div>
-
-
         </div>
-
     </div>
 </section>

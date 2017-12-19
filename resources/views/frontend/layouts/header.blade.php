@@ -18,26 +18,26 @@
 
                     <div class="navbar-collapse collapse" id="navigation">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="dropdown active">
+                            <li class="dropdown {{$active == 'home' ? 'active' : ''}}">
                                 <a href="{{url('')}}" class="dropdown-toggle">Home</b></a>
                             </li>
-                            <li class="dropdown">
-                                <a href="{{url('')}}" class="dropdown-toggle">Ticket</b></a>
+                            <li class="dropdown {{$active == 'ticket' ? 'active' : ''}}">
+                                <a href="{{url('ticket')}}" class="dropdown-toggle">Ticket</b></a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown {{$active == 'package' ? 'active' : ''}}">
                                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Special Package <i class="caret"></i></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="{{url('/special-package/prewedding')}}">Prewedding</a></li>
-                                    <li><a href="{{url('/special-package/galadinner')}}">Dinner</a></li>
+                                    <li><a href="{{url('/special-package/dinner')}}">Dinner</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown {{$active == 'payment' ? 'active' : ''}}">
                                 <a href="{{url('')}}" class="dropdown-toggle">Confirm Payment</b></a>
                             </li>
-                            <li class="dropdown">
-                                <a href="{{url('')}}" class="dropdown-toggle">Galery</b></a>
+                            <li class="dropdown {{$active == 'gallery' ? 'active' : ''}}">
+                                <a href="{{url('')}}" class="dropdown-toggle">Gallery</b></a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown {{$active == 'about' ? 'active' : ''}}">
                                 <a href="{{url('')}}" class="dropdown-toggle">About</b></a>
                             </li>
                         </ul>

@@ -25,15 +25,17 @@
     <link href="{{asset('frontend/css/owl.carousel.css')}}" rel="stylesheet">
     <link href="{{asset('frontend/css/owl.theme.css')}}" rel="stylesheet">
     <link href="{{asset('frontend/css/custom.css')}}" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    @stack('css')
 </head>
 <body>
-    @include('frontend.layouts.header')
+    @include('frontend.layouts.header',['active' => $active])
     @yield('content')
-    @include('frontend.layouts.footer')
+    {{-- @include('frontend.layouts.footer') --}}
 
     @include('frontend.layouts.copyright')
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="{{asset('frontend/js/jquery.cookie.js')}}"></script>
     <script src="{{asset('frontend/js/waypoints.min.js')}}"></script>
