@@ -58,9 +58,13 @@ Route::get("/loket/pembayaran", function(){
     return view("backend.pembayaran.index");
 });
 
-Route::get('/admin', function(){
-    return redirect('/admin/dashboard');
+Route::get("/auth/login", function(){
+    return view('backend.login.index');
 });
-Route::get('/admin/dashboard', function(){
-    return view('backend.dashboard.index');
+
+Route::get('/owner', function(){
+    return redirect('/owner/konfirmasi-pembayaran');
+});
+Route::get('/owner/konfirmasi-pembayaran', function(){
+    return view('backend.confirmation.index');
 });

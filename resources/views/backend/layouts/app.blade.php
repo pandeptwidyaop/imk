@@ -27,7 +27,7 @@
                 </a>
             </div>
             <div class="right-div">
-                <a href="#" class="btn btn-danger pull-right">LOG OUT</a>
+                <a href="{{url("auth/login")}}" class="btn btn-danger pull-right">LOG OUT</a>
             </div>
         </div>
     </div>
