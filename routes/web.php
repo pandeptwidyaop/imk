@@ -65,6 +65,16 @@ Route::get("/auth/login", function(){
 Route::get('/owner', function(){
     return redirect('/owner/konfirmasi-pembayaran');
 });
+
+Route::get('/owner/laporan', function(){
+    return view('backend.laporan.index');
+});
+Route::get('/owner/laporan/keuangan', function(){
+    return view('backend.laporan.keuangan');
+});
+Route::get('/owner/laporan/pengunjung', function(){
+    return view('backend.laporan.pengunjung');
+});
 Route::get('/owner/konfirmasi-pembayaran', function(){
     return view('backend.confirmation.index');
 });

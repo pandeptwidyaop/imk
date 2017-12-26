@@ -52,7 +52,7 @@
     </section>
     <script src="{{asset('backend/js/jquery-1.10.2.js')}}"></script>
     <script src="{{asset('backend/js/bootstrap.js')}}"></script>
-    <script src="{{asset('backend/js/custom.js')}}"></script>
+    {{-- <script src="{{asset('backend/js/custom.js')}}"></script> --}}
     @stack('script')
     @stack('js')
 </body>
