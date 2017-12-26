@@ -7,6 +7,7 @@
                         <li  class="{{$menuActive == 'confirmation' ? 'menu-top-active' : ''}}"><a href="{{url('owner/konfirmasi-pembayaran')}}">KONFIRMASI PEMBAYRAN</a></li>
                         <li  class="{{$menuActive == 'laporan' ? 'menu-top-active' : ''}}"><a href="{{url('owner/laporan')}}">LAPORAN</a></li>
                         <li  class="{{$menuActive == 'artikel' ? 'menu-top-active' : ''}}"><a href="{{url('owner/artikel')}}">ARTIKEL</a></li>
+                        <li  class="{{$menuActive == 'review' ? 'menu-top-active' : ''}}"><a href="{{url('owner/review')}}">REVIEW</a></li>
                     </ul>
                 </div>
             </div>

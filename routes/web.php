@@ -75,6 +75,12 @@ Route::get('/owner/laporan/keuangan', function(){
 Route::get('/owner/laporan/pengunjung', function(){
     return view('backend.laporan.pengunjung');
 });
+Route::get('/owner/artikel', function(){
+    return view('backend.artikel.index');
+});
+Route::get('/owner/review', function(){
+    return view('backend.review.index');
+});
 Route::get('/owner/konfirmasi-pembayaran', function(){
     return view('backend.confirmation.index');
 });
