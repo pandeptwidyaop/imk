@@ -31,7 +31,7 @@
                 <div class="col-md-12">
                     <br>
                     <h3>Statistik Pengunjung</h3>
-                    <canvas id="statistic" width="100%" height="600"></canvas>
+                    <canvas id="statistic" width="400" height="700"></canvas>
                 </div>
             </div>
         </div>
@@ -113,5 +113,66 @@
             }
         }
     });
+    var randomScalingFactor = function() {
+        return Math.round(Math.random() * 100);
+    };
+    function getRandomColor() {
+      var letters = '0123456789ABCDEF';
+      var color = '#';
+      for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+      }
+      return color;
+    }
+    var chart = new Chart(doughnut,{
+        type: 'doughnut',
+        data: {
+            datasets: [{
+                data: [
+                    @php
+                        foreach (config('data.countries') as $name) {
+                            echo "randomScalingFactor(),";
+                        }
+                    @endphp
+
+                ],
+                backgroundColor: [
+                    @php
+                        foreach (config('data.countries') as $name) {
+                            echo "getRandomColor(),";
+                        }
+                    @endphp
+                ],
+                label: 'Dataset 1'
+            }],
+            labels: [
+                @php
+                    $countries = '';
+                @endphp
+                @foreach (config('data.countries') as $name)
+                    @php
+                        $countries .= "'$name',";
+                    @endphp
+                @endforeach
+                {!! $countries !!}
+            ]
+        },
+        options: {
+            responsive: true,
+            legend: {
+                position: 'top',
+            },
+            title: {
+                display: true,
+                text: 'Data Statistic Masing Masing Negara'
+            },
+            animation: {
+                animateScale: true,
+                animateRotate: true
+            }
+        }
+    });
+
+
 </script>
 @endpush
