@@ -28,6 +28,11 @@
                     <br>
                     <canvas id="myChart2" width="400" height="400"></canvas>
                 </div>
+                <div class="col-md-12">
+                    <br>
+                    <h3>Statistik Pengunjung</h3>
+                    <canvas id="statistic" width="100%" height="600"></canvas>
+                </div>
             </div>
         </div>
     </div>
@@ -52,6 +57,7 @@
     });
     var ctx = document.getElementById("myChart").getContext('2d');
     var ctx2 = document.getElementById("myChart2").getContext('2d')
+    var doughnut = document.getElementById("statistic").getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'line',
         data: {
