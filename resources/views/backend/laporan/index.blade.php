@@ -31,7 +31,7 @@
                 <div class="col-md-12">
                     <br>
                     <h3>Statistik Pengunjung</h3>
-                    <canvas id="statistic" width="400" height="700"></canvas>
+                    <canvas id="statistic" width="400" height="500"></canvas>
                 </div>
             </div>
         </div>
@@ -114,7 +114,7 @@
         }
     });
     var randomScalingFactor = function() {
-        return Math.round(Math.random() * 100);
+        return Math.round(Math.random() * 1000);
     };
     function getRandomColor() {
       var letters = '0123456789ABCDEF';
